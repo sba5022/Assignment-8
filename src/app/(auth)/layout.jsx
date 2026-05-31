@@ -7,8 +7,7 @@ import React from 'react';
 const AuthLayout = ({ children }) => {
     return (
         <>
-        <Header/>
-        <NewArrivals/>
+       
         <Navbar/>
         {children}
         

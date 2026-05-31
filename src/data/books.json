@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Lost Kingdom",
+    "author": "Emma Carter",
+    "description": "An adventurous story about a hidden kingdom and a brave young explorer.",
+    "category": "Story",
+    "available_quantity": 7,
+    "image_url": "https://i.ibb.co.com/s97D622V/Screenshot-2026-05-30-at-12-59-28-PM.png"
+  },
+  {
+    "id": 2,
+    "title": "Mastering JavaScript",
+    "author": "David Miller",
+    "description": "A practical guide to modern JavaScript programming and web development.",
+    "category": "Tech",
+    "available_quantity": 10,
+    "image_url": "https://i.ibb.co.com/fz1qpz32/Screenshot-2026-05-30-at-12-59-16-PM.png"
+  },
+  {
+    "id": 3,
+    "title": "The Mystery Lake",
+    "author": "Sophia Wilson",
+    "description": "A thrilling mystery story centered around a strange lake in a small town.",
+    "category": "Story",
+    "available_quantity": 5,
+    "image_url": "https://i.ibb.co.com/DPfZgg1X/Screenshot-2026-05-30-at-12-59-03-PM.png"
+  },
+  {
+    "id": 4,
+    "title": "Space and Beyond",
+    "author": "Michael Brown",
+    "description": "An introduction to space science, planets, and the mysteries of the universe.",
+    "category": "Science",
+    "available_quantity": 8,
+    "image_url": "https://i.ibb.co.com/yFY9rnJk/Screenshot-2026-05-30-at-12-58-51-PM.png"
+  },
+  {
+    "id": 5,
+    "title": "React for Beginners",
+    "author": "Sarah Johnson",
+    "description": "Learn the basics of React and build interactive web applications.",
+    "category": "Tech",
+    "available_quantity": 12,
+    "image_url": "https://i.ibb.co.com/DfsSvL5N/Screenshot-2026-05-30-at-12-58-40-PM.png"
+  },
+  {
+    "id": 6,
+    "title": "Journey Through Time",
+    "author": "Olivia Taylor",
+    "description": "A fascinating fictional journey across different historical eras.",
+    "category": "Story",
+    "available_quantity": 6,
+    "image_url": "https://i.ibb.co.com/GfnH0CKs/Screenshot-2026-05-30-at-12-58-32-PM.png"
+  },
+  {
+    "id": 7,
+    "title": "Human Body Explained",
+    "author": "Daniel Moore",
+    "description": "A detailed yet simple explanation of how the human body works.",
+    "category": "Science",
+    "available_quantity": 9,
+    "image_url": "https://i.ibb.co.com/1GLMNcHS/Screenshot-2026-05-30-at-12-58-17-PM.png"
+  },
+  {
+    "id": 8,
+    "title": "Cybersecurity Essentials",
+    "author": "James Anderson",
+    "description": "Understand the fundamentals of online security and data protection.",
+    "category": "Tech",
+    "available_quantity": 4,
+    "image_url": "https://i.ibb.co.com/TB0Gpksc/Screenshot-2026-05-30-at-12-58-09-PM.png"
+  },
+  {
+    "id": 9,
+    "title": "The Silent Forest",
+    "author": "Ava Martinez",
+    "description": "A suspenseful story about secrets hidden deep inside an ancient forest.",
+    "category": "Story",
+    "available_quantity": 11,
+    "image_url": "https://i.ibb.co.com/0R2f9CZm/Screenshot-2026-05-30-at-12-57-43-PM.png"
+  },
+  {
+    "id": 10,
+    "title": "Climate Change Today",
+    "author": "Emily White",
+    "description": "An insightful overview of climate change and its global impacts.",
+    "category": "Science",
+    "available_quantity": 7,
+    "image_url": "https://i.ibb.co.com/0yvtkJj7/Screenshot-2026-05-30-at-12-57-13-PM.png"
+  },
+  {
+    "id": 11,
+    "title": "Python Programming Basics",
+    "author": "William Harris",
+    "description": "A beginner-friendly introduction to Python programming concepts.",
+    "category": "Tech",
+    "available_quantity": 13,
+    "image_url": "https://i.ibb.co.com/TBYyNxyH/Screenshot-2026-05-30-at-12-57-27-PM.png"
+  },
+  {
+    "id": 12,
+    "title": "Stars of the Ocean",
+    "author": "Charlotte King",
+    "description": "A beautiful story of friendship and survival on a long sea voyage.",
+    "category": "Story",
+    "available_quantity": 5,
+    "image_url": "https://i.ibb.co.com/TBYyNxyH/Screenshot-2026-05-30-at-12-57-27-PM.png"
+  }
+]
