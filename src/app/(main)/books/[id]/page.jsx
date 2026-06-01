@@ -2,13 +2,11 @@
 import React from 'react';
 import books from "@/data/books.json";
 import Image from 'next/image';
-import { authClient } from '@/lib/auth-client';
-import { useRouter } from 'next/navigation';
+
 import toast, { Toaster } from "react-hot-toast";
-const BooksDetails = ({params}) => {
-     const { id } =  params;
-const router = useRouter();
-  const { data: session } = authClient.useSession();
+const BooksDetails = async({params}) => {
+     const { id } = await params;
+
   const book = books.find((book) => book.id === Number(id));
 
   if (!book) {
