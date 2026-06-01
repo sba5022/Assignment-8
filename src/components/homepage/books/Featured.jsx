@@ -7,7 +7,7 @@ const Featured = () => {
   const featuredBooks = books.slice(0, 4);
 
   return (
-    <div className="container mx-auto my-10">
+    <div className="container mx-auto my-10  space-y-6">
       
       <h2 className="text-3xl font-bold text-center mb-6">
         Featured Books
