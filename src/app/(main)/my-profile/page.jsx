@@ -34,9 +34,7 @@ const MyProfile = () => {
         <p>
           <strong>Email:</strong> {user?.email}
         </p>
-        <p>
-          <strong>Password:</strong> {user?.password}
-        </p>
+        
         <p>
           <strong>Photo_URL:</strong> {user?.image}
         </p>
