@@ -16,7 +16,7 @@ const Featured = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 
         {featuredBooks.map((book) => (
-          <div key={book.id} className="border rounded-lg p-4 shadow-md">
+          <div key={book.id} className="border rounded-md p-4 shadow-md">
 
             <Image
               src={book.image_url}

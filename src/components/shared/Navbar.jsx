@@ -20,14 +20,15 @@ const Navbar = () => {
                 <Link href="/">Category-A8-Mango
                 </Link>
             </button>
+            
             <div></div>
             <ul className='flex  flex-row md:flex-col sm:gap-6 font-medium  items-center gap-6 text-lg  justify-between text-gray-700'>
                 <li><NavLinks href="/">Home</NavLinks></li>
                 <li><NavLinks href="/all-books">All Books</NavLinks></li>
                 <li><NavLinks href="/my-profile">My Profile</NavLinks></li>
-            </ul>
-<div  className="flex items-center gap-4">
-            {isPending ? (<p>Loading...</p>) : user ? (<div className='flex items-center gap-4'>
+            </ul> 
+<div  className="flex flex-col sm:flex-row items-center gap-3 sm:gap-4">
+            {isPending ? (<p>Loading...</p>) : user ? (<div className=''>
                 <h2>Hello, {user?.name || 'Guest'}</h2>
                 <Image src={user?.image || userAvatar} alt="User Avatar" width={60} height={60} />
                 <button className='btn btn-secondary ' onClick={async () => {
@@ -37,7 +38,7 @@ const Navbar = () => {
             </div>) :
                 (<button className='btn btn-secondary' ><Link href="/login">Login</Link></button>)}
                 </div>
-        </div>
+       </div>
         </div>
     );
 };

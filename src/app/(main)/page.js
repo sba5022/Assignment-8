@@ -4,6 +4,8 @@ import LeftSideBar from "@/components/homepage/books/LeftSideBar";
 import RightSideBar from "@/components/homepage/books/RightSideBar";
 import Link from "next/link";
 import Featured from "@/components/homepage/books/Featured";
+import SectionO from "@/components/homepage/books/SectionO";
+import SectionT from "@/components/homepage/books/SectionT";
 
 export default function Home() {
     const categories = [...new Set(books.map(book => book.category))];
@@ -15,6 +17,11 @@ export default function Home() {
       </div>
       <div className="text-4xl font-bold  text-center col-span-6">
         <RightSideBar/></div>
+        <div>
+<SectionO/>
+<SectionT/>
+
+        </div>
     </div>
   );
 }
